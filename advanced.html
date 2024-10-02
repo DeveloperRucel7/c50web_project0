@@ -3,24 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advamced Search</title>
+    <title>Google Advanced Search</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <header class="navbar">
 
+    <!-- the navbar of the google page -->
+
+    <!-- <div class="navbar">
         <ul>
             <li><a href="index.html">Google Search</a></li>
-            <li><a href="images.html">Advanced Search</a></li>
-        </ul>
+        </ul> 
+    </div> -->
+    <h1 class="title_advanced">Advanced Search</h1>
+    <div class="bar"></div>
 
-    </header>
-    <main>
+    <div class="advanced">
+        <p class="message">Find pages with ...</p>
+        <form action="https://google.com/search">
+            <div class="row_input">
+                <div class="left">
+                    <p class="text-advanced">all these words:   </p>
+                </div>
+                <div class="right">
+                    <input type="text" class="form-control" name="as_q">
+                </div>
+            </div>
+            <div class="row_input">
+                <div class="left">
+                    <p class="text-advanced">this exact words or phrase   </p>
+                </div>
+                <div class="right">
+                    <input type="text" class="form-control" name="as_epq">
+                </div>
+            </div>
+            <div class="row_input">
+                <div class="left">
+                    <p class="text-advanced">any of these words:   </p>
+                </div>
+                <div class="right">
+                    <input type="text" class="form-control" name="as_oq">
+                </div>
+            </div>
+            <div class="row_input">
+                <div class="left">
+                    <p class="text-advanced">none of these words:   </p>
+                </div>
+                <div class="right">
+                    <input type="text" class="form-control" name="as_eq">
+                </div>
+            </div>
 
-    </main>
-    <footer>
+            <div class="bouton">
+                <input type="submit" value="Advanced Search" class="btn-advanced">
+            </div>
+        </form>
 
-    </footer>
+
+    </div>
+
+
+ 
     
 </body>
 </html>
